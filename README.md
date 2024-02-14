@@ -18,6 +18,13 @@ Api infrastructure have mutiple function e.g : Azure application insight / entit
 ![image](https://github.com/Wayne5888/dotnet6-webapi/assets/63963809/dc4c6b29-35ec-4534-95b0-35c2e368122f)
 
 
+6. Every api is protected by JWT protection, connect to /api/login to get JWT token first.
+
+7. Use the jwt to send request to apis.
+   
+
+
+* JWT's secret is hard coded, you may change to other key or move hard coded to setting.
 
 * Why log the file as a .txt in /log/*.txt but not remote service?
 1. This is a demo service, for production/test service, you may push the log to remote for better analysis.
