@@ -1,0 +1,7 @@
+bin/
+obj/
+migrations/
+.dockerignore
+.gitignore
+log/
+Dockerfile

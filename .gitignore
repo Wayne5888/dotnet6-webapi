@@ -1,0 +1,10 @@
+bin/
+obj/
+migrations/
+.vscode/
+*.dll
+*.exe
+*.pdb
+*.log
+*.vs/
+*.log
