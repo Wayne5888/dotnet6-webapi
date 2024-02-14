@@ -20,11 +20,11 @@ Api infrastructure have mutiple function e.g : Azure application insight / entit
 
 
 * Why log the file as a .txt in /log/*.txt but not remote service?
-   *This is a demo service, for production/test service, you may push the log to remote for better analysis.
-   *Log including request/response/entity framework logs/Exception logs/http status.
+1. This is a demo service, for production/test service, you may push the log to remote for better analysis.
+2. Log including request/response/entity framework logs/Exception logs/http status.
 
 * Why you don't mix entity framework command in dockerfile?
-  *This is a demo service, for better understand and flexible(some people may not want to use docker), seperate the service from dockerfile.
+1. This is a demo service, for better understand and flexible(some people may not want to use docker), seperate the service from dockerfile.
 
 
 
